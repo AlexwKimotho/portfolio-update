@@ -144,7 +144,7 @@ const Home = () => {
             </AnimateEl>
             <AnimateEl>
               <a
-                href="#"
+                href="/"
                 target="_blank"
                 rel="noopener noreferrer"
                 onMouseEnter={boxHover}
