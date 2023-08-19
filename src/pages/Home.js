@@ -233,7 +233,7 @@ const Home = () => {
         <section className="contact">
           <div className="topic">Need a developer ?</div>
           <Link to="/contact">
-            <div className="title">Let's Collaborate &#8594;</div>
+            <div className="title">Let's Collaborate  &#8594;</div>
           </Link>
         </section>
 
