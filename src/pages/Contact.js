@@ -24,7 +24,7 @@ const Contact = () => {
       top: 0,
       left: 0,
     });
-    document.title = "Sharmil — Contact Me";
+    document.title = "Alex — Contact Me";
 
     gsap.from(".services__inner", {
       duration: 0.2,
@@ -47,9 +47,9 @@ const Contact = () => {
   const onSubmit = async (e) => {
     e.preventDefault();
 
-    const service_id = "service_ucqn9kb";
-    const template_id = "template_vdpzagj";
-    const userId = "user_Ve5NzbhqaKfrS64JkQLwR";
+    const service_id = "service_p7ar3ih";
+    const template_id = "template_va7p0gm";
+    const userId = "Fu3omPvgJbH9IYW4W";
     try {
       setLoading(true);
       await emailjs.send(service_id, template_id, formState, userId);

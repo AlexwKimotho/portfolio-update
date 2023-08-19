@@ -8,9 +8,9 @@ import { boxHover, boxExit } from "../animations";
 import Footer from "../components/Footer";
 import AnimateEl from "../components/AnimateEl";
 
-const transition = { duration: 1, ease: "easeInOut", delay: 0.8 };
+const transition = { duration: 1, ease: "easeInOut", delay: 0.5 };
 
-const text1 = "I curate experiences";
+const text1 = "I create fluid experiences";
 const text2 = "with technology.";
 
 const Home = () => {
@@ -19,7 +19,7 @@ const Home = () => {
       top: 0,
       left: 0,
     });
-    document.title = "Sharmil — Developer";
+    document.title = "Alex — Developer";
   }, []);
 
   return (
@@ -50,7 +50,7 @@ const Home = () => {
             </span>
           </h1>
           <h1 className="landing__main2">
-            I curate experiences <br /> with technology.
+            I Create fluid experiences <br /> with technology.
           </h1>
           <div className="links">
             <NavLink className="item" to="/about">
@@ -89,12 +89,12 @@ const Home = () => {
                 className="box box-1"
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://sharmil001.github.io/Music-Player/"
+                href="https://royalbushsafaris.co.ke/"
               >
                 <div className="box-content">
-                  <div className="box-anim p-title">Coding Music</div>
+                  <div className="box-anim p-title">Royal Bush Safaris</div>
                   <div className="box-anim p-sub">
-                    A website for the soothing & cool music.
+                  Book your long awaited Get-Away trip with us for an unforgettable Experience
                   </div>
                   <div className="box-anim link">View Project &#8594;</div>
                 </div>
@@ -104,7 +104,7 @@ const Home = () => {
             </AnimateEl>
             <AnimateEl>
               <a
-                href="https://python-food.herokuapp.com/"
+                href="https://Grokart.netlify.app"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="box box-2"
@@ -112,9 +112,9 @@ const Home = () => {
                 onMouseLeave={boxExit}
               >
                 <div className="box-content">
-                  <div className="box-anim p-title">Digital Menu Cards</div>
+                  <div className="box-anim p-title">Grokart</div>
                   <div className="box-anim p-sub">
-                  Restaurants and Ordering System Using QR Code Scanning.
+                  Grokart is an online shopping E-commerce website that is primarily used to sell goods to prospective clients. 
                   </div>
                   <div className="box-anim link">View Project &#8594;</div>
                 </div>
@@ -124,7 +124,7 @@ const Home = () => {
             </AnimateEl>
             <AnimateEl>
               <a
-                href="https://github.com/Sharmil001/Attendance_Marking_face_recognition"
+                href="https://centadbranding.co.ke/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="box box-3"
@@ -132,9 +132,9 @@ const Home = () => {
                 onMouseLeave={boxExit}
               >
                 <div className="box-content">
-                  <div className="box-anim p-title">Attendace System</div>
+                  <div className="box-anim p-title">CentAd Branding</div>
                   <div className="box-anim p-sub">
-                  Smart attendace marking system using face recognition.
+                  A media marketing and advertising company mainly focused on growing your brand in the most efficient and cost-effective way
                   </div>
                   <div className="box-anim link">View Project &#8594;</div>
                 </div>
@@ -152,9 +152,9 @@ const Home = () => {
                 className="box box-4"
               >
                 <div className="box-content">
-                  <div className="box-anim p-title">Shopify</div>
+                  <div className="box-anim p-title">Alkim Fashion Apparel</div>
                   <div className="box-anim p-sub">
-                  Shopify is interactive UI for Ecommerce Website. 
+                  This is a simple e-commerce website that is built using React 
                   </div>
                   <div className="box-anim link">Under Construction &#8594;</div>
                 </div>
@@ -164,7 +164,7 @@ const Home = () => {
             </AnimateEl>
           </div>
           <a
-            href="https://github.com/Sharmil001"
+            href="https://github.com/AlexwKimotho"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -181,11 +181,10 @@ const Home = () => {
               🔎
             </span>
           </div>
-          <div className="topic">PS: I also write, sometimes.</div>
-
+          
           <div className="social-boxes">
             <a
-              href="https://github.com/Sharmil001"
+              href="https://github.com/AlexwKimotho"
               target="_blank"
               rel="noopener noreferrer"
               className="box github"
@@ -194,12 +193,12 @@ const Home = () => {
                 <i className="fab fa-github-alt"></i>
                 <div className="items">
                   <div className="name">Github</div>
-                  <div className="user">/Sharmil001</div>
+                  <div className="user">/AlexwKimotho</div>
                 </div>
               </div>
             </a>
             <a
-              href="https://twitter.com/AdrojaSharmil"
+              href="https://twitter.com/K_wachira_"
               target="_blank"
               rel="noopener noreferrer"
               className="box twitter"
@@ -208,13 +207,13 @@ const Home = () => {
                 <i className="fab fa-twitter"></i>
                 <div className="items">
                   <div className="name">Twitter</div>
-                  <div className="user">/AdrojaSharmil</div>
+                  <div className="user">K_wachira_</div>
                 </div>
               </div>
             </a>
 
             <a
-              href="https://www.linkedin.com/in/sharmil-ml/"
+              href="https://www.linkedin.com/in/alex-wachira-kimotho-a92a31227/"
               target="_blank"
               rel="noopener noreferrer"
               className="box linkedin"
@@ -223,24 +222,11 @@ const Home = () => {
                 <i className="fab fa-linkedin-in"></i>
                 <div className="items">
                   <div className="name">Linkedin</div>
-                  <div className="user">/sharmil-ml</div>
+                  <div className="user">Alex Wachira Kimotho</div>
                 </div>
               </div>
             </a>
-            <a
-              href="https://www.instagram.com/sharmil_adroja/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="box instagram"
-            >
-              <div className="content">
-                <i className="fab fa-instagram"></i>
-                <div className="items">
-                  <div className="name">Instagram</div>
-                  <div className="user">/sharmil_adroja</div>
-                </div>
-              </div>
-            </a>
+         
           </div>
         </section>
 

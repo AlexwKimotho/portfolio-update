@@ -26,7 +26,7 @@ const Navigation = () => {
 
             <div data-text="GitHub" className="nav-link">
               <a
-                href="https://github.com/Sharmil001"
+                href="https://github.com/AlexwKimotho"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -36,7 +36,7 @@ const Navigation = () => {
 
             <div data-text="Linkedin" className="nav-link">
               <a
-                href="https://www.linkedin.com/in/sharmil-ml/"
+                href="https://www.linkedin.com/in/alex-wachira-kimotho-a92a31227/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -44,15 +44,7 @@ const Navigation = () => {
               </a>
             </div>
 
-            {/* <div data-text="Blog" className="nav-link">
-              <a
-                href="https://dev.to/oluwadareseyi"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Blog
-              </a>
-            </div> */}
+           
           </div>
         </div>
         <div className="hover-bg"></div>

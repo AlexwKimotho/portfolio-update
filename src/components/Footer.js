@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="message">Say Hello</div>
         <div className="links">
           <div className="link">
-            <p>
+            {/* <p>
               <a
                 data-text="wa.me/sharmiladroja"
                 href="https://wa.me/+918805929891"
@@ -18,13 +18,13 @@ const Footer = () => {
               >
                 wa.me/sharmiladroja
               </a>
-            </p>
+            </p> */}
             <p>
               <a
-                data-text="sharmiladroja17@gamil.com"
-                href="mailto:sharmiladroja17@gamil.com"
+                data-text="lexkimothowachira@gmail.com"
+                href="mailto:lexkimothowachira@gmail.com"
               >
-                sharmiladroja17@gamil.com
+                lexkimothowachira@gmail.com
               </a>
             </p>
           </div>
@@ -44,7 +44,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="footer-bottom">© Sharmil Adroja 2021</div>
+      <div className="footer-bottom">© Alex Kimotho 2023</div>
     </footer>
   );
 };

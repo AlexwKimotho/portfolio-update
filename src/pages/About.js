@@ -12,7 +12,7 @@ const About = () => {
       top: 0,
       left: 0,
     });
-    document.title = "Sharmil — About Me";
+    document.title = "Alex — About Me";
     // fadeUp(".about-inner", 0.8);
     gsap.from(".about__inner", {
       duration: 0.2,
@@ -48,23 +48,23 @@ const About = () => {
         <div className="about__inner">
           <div className="about__top">
             <div className="my-name">
-              Sharmil <br /> Adroja.
+              Alex <br /> Wachira <br /> Kimotho.
             </div>
             <div className="desc">
               <p>
-                Software Developer based in Nashik, India focused on branding,
-                building interactive experiences & creating emotions through
-                design and technology.
+                Software Developer based in Nairobi, Kenya focused on building
+                interactive experiences & creating fluid and responsive
+                experiences through design and technology.
               </p>
               <p>
-                I have always supported the idea of a minimalistic and
-                user-focused approach to design and development, which I indeed
-                imbibe when building scalable and fully responsive web
-                applications.
+                I am Strong in design and integration with intuitive
+                problem-solving skills. Proficient in React, JavaScript and
+                NextJs. I am Passionate about implementing Solutions that make a
+                difference in our world.
               </p>
             </div>
             <a
-              href="https://drive.google.com/uc?export=download&id=1FjgKfpRUxuswo2pMx10xboXDrb0RMrKR"
+              href="https://docs.google.com/document/d/10sLVB2MlcPV6IKihtjPhNy1ORXYGJBss0wTyy-Gc39I/edit?usp=sharing"
               download
             >
               <i className="fas fa-file-alt"></i> Download Resume
@@ -81,16 +81,14 @@ const About = () => {
                 <div className="company">
                   <div className="name tech">Core Tech:</div>
                   <ul className="tasks">
-                    <li>Python</li>
-                    <li>C/C++</li>
                     <li>JavaScript</li>
-                    <li>Angular</li>
-                    <li>NestJS</li>
-                    <li>PrimeNG</li>
+                    <li>NextJS</li>
                     <li>REST APIs</li>
                     <li>SQLite3</li>
-                    <li>MySQL</li>
+                    <li>HTML</li>
                     <li>CSS</li>
+                    <li>ReactJs</li>
+                    <li>Rails</li>
                   </ul>
                 </div>
 
@@ -98,8 +96,7 @@ const About = () => {
                   <div className="name tech">Familiar:</div>
                   <ul className="tasks">
                     <li>Django</li>
-                    <li>React</li>
-                    <li>AWS S3 & IAM User</li>
+                    <li>Ruby on Rails</li>
                     <li>UI/UX</li>
                   </ul>
                 </div>
@@ -109,9 +106,7 @@ const About = () => {
                   <ul className="tasks">
                     <li>Responsive Design.</li>
                     <li>Version Control.</li>
-                    <li>
-                      JavaScript best practices, clean code.
-                    </li>
+                    <li>JavaScript best practices, clean code.</li>
                     <li>Continuous Integration/Development.</li>
                   </ul>
                 </div>
@@ -124,22 +119,36 @@ const About = () => {
 
               <div className="companies">
                 <div className="company">
-                  <div className="name">BayGrape (SDE Intern)</div>
-                  <div className="year">March 2021 - June 2021(3 Months)</div>
+                  <div className="name">Scope and impact</div>
+                  <div className="year">March 2023 - Present</div>
                   <ul className="tasks">
                     <li>
-                    I worked on company real-time projects. Developed a scalable web application using Angular and NestJS :
+                      Assisting development team in designing, developing, and
+                      maintaining iSCOPE HR System.
                     </li>
                     <li>
-                    Collaborating with other team members to complete the given tasks.
+                      Collaborating with technical team to identify and solve
+                      technical problems.
                     </li>
                     <li>
-                    Working as a full-stack developer.
+                      Worked closely with some of the top customers to review
+                      their implementation setups, system upgrades and provided
+                      solutions specific to customer requirements.
+                    </li>
+                    <li>
+                      Contributing to the development of software architecture
+                      and design patterns.
+                    </li>
+                    <li>
+                      Collaborating with quality assurance teams to ensure the
+                      software meets the required quality standards.
+                    </li>
+                    <li>
+                      Providing technical support directly or indirectly to
+                      clients or end-users..
                     </li>
                   </ul>
                 </div>
-                
-
               </div>
             </div>
           </div>

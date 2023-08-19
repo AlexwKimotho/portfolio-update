@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link, withRouter } from "react-router-dom";
 import { openMenu, closeMenu } from "../animations";
-import { ReactComponent as Logo } from "../assets/images/logo-full.svg";
 
 const Header = ({ history }) => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -32,7 +31,7 @@ const Header = ({ history }) => {
       <div className={`logo header-item`}>
         <Link to="/">
           {/* changed */}
-          <h2 id = "logo">Sharmil<span className="dev">.dev</span></h2>
+          <h2 id = "logo">Alex Wachira Kimotho<span className="dev">Dev</span></h2>
         </Link>
       </div>
       <div
