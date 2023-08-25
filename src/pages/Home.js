@@ -8,10 +8,10 @@ import { boxHover, boxExit } from "../animations";
 import Footer from "../components/Footer";
 import AnimateEl from "../components/AnimateEl";
 
-const transition = { duration: 1, ease: "easeInOut", delay: 0.5 };
+const transition = { duration: 0.5, ease: "easeInOut", delay: 0 };
 
-const text1 = "I create fluid experiences";
-const text2 = "with technology.";
+const text1 = "Welcome! I am";
+const text2 = "Alex Wachira Kimotho.";
 
 const Home = () => {
   useEffect(() => {
@@ -50,7 +50,7 @@ const Home = () => {
             </span>
           </h1>
           <h1 className="landing__main2">
-            I Create fluid experiences <br /> with technology.
+            I Am <br /> Alex Wachira Kimotho.
           </h1>
           <div className="links">
             <NavLink className="item" to="/about">

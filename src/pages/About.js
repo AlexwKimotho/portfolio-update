@@ -52,16 +52,42 @@ const About = () => {
             </div>
             <div className="desc">
               <p>
-                Software Developer based in Nairobi, Kenya focused on building
-                interactive experiences & creating fluid and responsive
-                experiences through design and technology.
+                As a Software Developer at Scope & Impact, I assist the
+                development team in designing, developing, and maintaining the
+                iSCOPE HR System, a web-based application that automates and
+                streamlines human resource management processes. I write and
+                test code using various programming languages, such as NextJs
+                and Yii2, and collaborate with technical team to identify and
+                solve technical problems. I also conduct research on new
+                technologies and programming languages, assist with software
+                documentation and user manuals, debug and troubleshoot system
+                issues, and provide technical support to clients or end-users. I
+                am a dedicated and aspiring software engineer with a strong
+                desire to learn, grow, and make an impact in the field. I have a
+                solid foundation in programming principles and a software
+                engineering certificate from Moringa School, where I learned how
+                to apply technical skills in a professional environment. I am
+                motivated by challenges and opportunities to create innovative
+                and user-friendly solutions that can improve lives and
+                businesses. I am eager to continue developing my skills and
+                knowledge, and to contribute to the success of Scope & Impact
+                and its clients.
               </p>
               <p>
-                I am Strong in design and integration with intuitive
-                problem-solving skills. Proficient in React, JavaScript and
-                NextJs. I am Passionate about implementing Solutions that make a
-                difference in our world.
+                Before joining Scope & Impact, I worked as an ICT officer at the
+                Ministry of Health, Kenya, where I was involved in the Chanjo KE
+                platform, a project that aimed to improve the vaccination
+                coverage and data quality in the country. I headed a team of
+                twenty ICT officers that facilitated recording the clients' data
+                through the government portal link and supported the vaccine
+                outreaches. I also headed a team of six people to configure and
+                distribute over 4,000 tablets that were donated to the ministry
+                by partners in various counties. I gained valuable experience in
+                hardware installation, user support, network configuration, data
+                entry, and internal training.
               </p>
+
+              
             </div>
             <a
               href="https://docs.google.com/document/d/10sLVB2MlcPV6IKihtjPhNy1ORXYGJBss0wTyy-Gc39I/edit?usp=sharing"
