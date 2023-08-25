@@ -50,7 +50,7 @@ const Home = () => {
             </span>
           </h1>
           <h1 className="landing__main2">
-            I Am <br /> Alex Wachira Kimotho.
+           Welcome! I Am <br /> Alex Wachira Kimotho.
           </h1>
           <div className="links">
             <NavLink className="item" to="/about">

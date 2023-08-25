@@ -5,12 +5,17 @@ const PreLoader = () => {
   useEffect(() => {
     preLoaderAnim();
   }, []);
+
+    const blueTextStyle = {
+      color: 'skyblue'
+    };
+
   return (
     <div className="preloader">
       <div className="texts-container">
         <span>Design,</span>
         <span>Develop,</span>
-        <span>Vibes.</span>
+        <span style={blueTextStyle} >Create.</span>
       </div>
     </div>
   );

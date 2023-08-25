@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Link, withRouter } from "react-router-dom";
+import { withRouter } from "react-router-dom";
 import { openMenu, closeMenu } from "../animations";
 
 const Header = ({ history }) => {
@@ -29,10 +29,9 @@ const Header = ({ history }) => {
   return (
     <div className="header">
       <div className={`logo header-item`}>
-        <Link to="/">
-          {/* changed */}
+        {/* <Link to="/">
           <h2 id = "logo">Alex Wachira Kimotho<span className="dev">Dev</span></h2>
-        </Link>
+        </Link> */}
       </div>
       <div
         onClick={menuToggle}
