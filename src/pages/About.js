@@ -52,42 +52,14 @@ const About = () => {
             </div>
             <div className="desc">
               <p>
-                As a Software Developer at Scope & Impact, I assist the
-                development team in designing, developing, and maintaining the
-                iSCOPE HR System, a web-based application that automates and
-                streamlines human resource management processes. I write and
-                test code using various programming languages, such as NextJs
-                and Yii2, and collaborate with technical team to identify and
-                solve technical problems. I also conduct research on new
-                technologies and programming languages, assist with software
-                documentation and user manuals, debug and troubleshoot system
-                issues, and provide technical support to clients or end-users. I
-                am a dedicated and aspiring software engineer with a strong
-                desire to learn, grow, and make an impact in the field. I have a
-                solid foundation in programming principles and a software
-                engineering certificate from Moringa School, where I learned how
-                to apply technical skills in a professional environment. I am
-                motivated by challenges and opportunities to create innovative
-                and user-friendly solutions that can improve lives and
-                businesses. I am eager to continue developing my skills and
-                knowledge, and to contribute to the success of Scope & Impact
-                and its clients.
+                Results-oriented professional with a track record of driving
+                data-driven decision-making, streamlining processes, and
+                enhancing system functionality. Skilled in requirements
+                gathering, stakeholder management, and delivering innovative
+                solutions. Proficient in Agile methodologies and leveraging
+                technical expertise to bridge the gap between business needs and
+                technology solutions.
               </p>
-              <p>
-                Before joining Scope & Impact, I worked as an ICT officer at the
-                Ministry of Health, Kenya, where I was involved in the Chanjo KE
-                platform, a project that aimed to improve the vaccination
-                coverage and data quality in the country. I headed a team of
-                twenty ICT officers that facilitated recording the clients' data
-                through the government portal link and supported the vaccine
-                outreaches. I also headed a team of six people to configure and
-                distribute over 4,000 tablets that were donated to the ministry
-                by partners in various counties. I gained valuable experience in
-                hardware installation, user support, network configuration, data
-                entry, and internal training.
-              </p>
-
-              
             </div>
             <a
               href="https://docs.google.com/document/d/10sLVB2MlcPV6IKihtjPhNy1ORXYGJBss0wTyy-Gc39I/edit?usp=sharing"
@@ -98,55 +70,41 @@ const About = () => {
           </div>
 
           <div className="about__bottom">
-            <div className="experience">
-              <div className="stack main-title">
-                <span>Stack.</span>
-              </div>
-
-              <div className="companies">
-                <div className="company">
-                  <div className="name tech">Core Tech:</div>
-                  <ul className="tasks">
-                    <li>JavaScript</li>
-                    <li>NextJS</li>
-                    <li>REST APIs</li>
-                    <li>SQLite3</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>ReactJs</li>
-                    <li>Rails</li>
-                  </ul>
-                </div>
-
-                <div className="company">
-                  <div className="name tech">Familiar:</div>
-                  <ul className="tasks">
-                    <li>Django</li>
-                    <li>Ruby on Rails</li>
-                    <li>UI/UX</li>
-                  </ul>
-                </div>
-
-                <div className="company">
-                  <div className="name tech">On The Job:</div>
-                  <ul className="tasks">
-                    <li>Responsive Design.</li>
-                    <li>Version Control.</li>
-                    <li>JavaScript best practices, clean code.</li>
-                    <li>Continuous Integration/Development.</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
+            
             <div className="experience">
               <div className="main-title">
                 <span>experience.</span>
               </div>
 
               <div className="companies">
+              <div className="company">
+                  <div className="name"> The Archangel interactive - (Software Engineer)</div>
+                  <div className="year">August 2023 - February 2024</div>
+                  <ul className="tasks">
+                    <li>
+                    Conducted system analysis and troubleshooting, proposing solutions to improve system performance.
+
+                    </li>
+                    <li>
+                    Designing, developing, and maintaining projects handled by Archangel.
+
+                    </li>
+                    <li>
+                    Lead testing for the developed project to meet user requirements.
+                    </li>
+                    <li>
+                    Collaborated with cross-functional teams to gather requirements and deliver solutions that aligned with client goals.
+                    </li>
+                    <li>
+                    Identifying potential bugs as well as proposing and implementing  solutions to aid in the software’s functionality.
+                    </li>
+                   
+                  </ul>
+                </div>
+
                 <div className="company">
-                  <div className="name">Scope and impact</div>
-                  <div className="year">March 2023 - Present</div>
+                  <div className="name">Scope and impact - (Software Engineer)</div>
+                  <div className="year">March 2023 - July 2024</div>
                   <ul className="tasks">
                     <li>
                       Assisting development team in designing, developing, and
