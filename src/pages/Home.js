@@ -52,6 +52,12 @@ const Home = () => {
           <h1 className="landing__main2">
            Welcome! I Am <br /> Alex Wachira Kimotho.
           </h1>
+          <a
+              href="https://docs.google.com/document/d/10sLVB2MlcPV6IKihtjPhNy1ORXYGJBss0wTyy-Gc39I/edit?usp=sharing"
+              download
+            >
+              <i className="fas fa-file-alt"></i> Download Resume
+            </a>
           <div className="links">
             <NavLink className="item" to="/about">
               About Me
